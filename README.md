@@ -69,4 +69,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # react-metronome
 
-Tom was here.
+Converting to functional components.
