@@ -1,0 +1,15 @@
+.led-box {
+  background-image: linear-gradient(rgb(119, 113, 113), rgb(255, 255, 255));
+  height: 20px;
+  width: 4%;
+  margin-top: 10px;
+  padding-top: 30px;
+  display: inline;
+  border: 2px solid white;
+}
+
+#boxes {
+  padding-top: 10px;
+  margin-top: 20px;
+  display: hidden;
+}

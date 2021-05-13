@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Metronome from './Metronome.js';
+import MetronomeFC from './MetronomeFC'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+ <MetronomeFC />,
   document.getElementById('root')
 );
 
