@@ -1,16 +1,15 @@
-import {React, useState } from "react";
+import { React, useState } from "react";
 import "./style.css";
 
 export const LED = (beat) => {
-    const [light, setLight] = useState();
-    console.log(beat)
+  const [light, setLight] = useState();
 
-    return (
-        <div 
-        className="led-light"
-        onMouseEnter={() => setLight(1)}
-        onMouseLeave={() => setLight(0)}
-        light={light}
-        />
-    )
-}
+  return (
+    <div
+      className="led-light"
+      onMouseEnter={() => setLight(1)}
+      onMouseLeave={() => setLight(0)}
+      light={light}
+    />
+  );
+};
